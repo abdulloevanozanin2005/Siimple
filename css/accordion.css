@@ -1,0 +1,49 @@
+
+.list-header {
+    font-weight: semibold;
+    font-size: larger;
+    font-family: 'Raleway';
+}
+
+.list-content {
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Open Sans';
+}
+
+.content-hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+[data-name], [data-tab] {
+    cursor: pointer;
+}
+
+.arrow{
+   float: right;
+}
+
+.list-group{
+    margin-left: 125px;
+}
+.list-header.active svg{
+    transform: rotate(180deg);
+    
+}
+.list-group-item.active {
+    color: black ;
+    background-color: white; 
+    border-color: transparent;
+
+}
+@media (max-width: 1200px) {
+    .list-group{
+        margin-left: 10px;
+        font-size: smaller;
+    }
+
+}

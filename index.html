@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/Raleway/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Open Sans/stylesheet.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/simple.css">
+    <link rel="stylesheet" href="css/dropmenu.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid bg-simple">
+         
+         <nav class="navbar bg-transparent" id="navbar">
+            <div class="container-fluid">
+              <span class="navbarbrand mb-0 h1">Siimple</span>
+              <svg onclick="myFunction()" class="dropbtn dropdown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="30px" height="30px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" onclick="myFunction()" class="dropbtn dropdown"transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path onclick="myFunction()" class="dropbtn dropdown" d="M 78.969 0 H 11.031 C 4.939 0 0 4.939 0 11.031 v 67.937 C 0 85.061 4.939 90 11.031 90 h 67.937 C 85.061 90 90 85.061 90 78.969 V 11.031 C 90 4.939 85.061 0 78.969 0 z M 69.488 68.568 H 20.511 c -2.209 0 -4 -1.791 -4 -4 s 1.791 -4 4 -4 h 48.977 c 2.209 0 4 1.791 4 4 S 71.697 68.568 69.488 68.568 z M 69.488 49 H 20.511 c -2.209 0 -4 -1.791 -4 -4 s 1.791 -4 4 -4 h 48.977 c 2.209 0 4 1.791 4 4 S 71.697 49 69.488 49 z M 69.488 29.432 H 20.511 c -2.209 0 -4 -1.791 -4 -4 s 1.791 -4 4 -4 h 48.977 c 2.209 0 4 1.791 4 4 S 71.697 29.432 69.488 29.432 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgba(46, 45, 46, 0.862); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg>
+              <div id="myDropdown" class="dropdown-content">
+              <a href="#about us">About Us</a>
+              <a href="#our mission">Our Mission</a>
+              <a href="#our plan">Our Plan</a>
+              <a href="#our vision">Our Vision</a>
+              <a href="#faq">Frequently Asked Questions</a>
+              <a href="#contacts">Contacts</a>
+            </div>
+            </div>
+          </nav>
+        <div class="container">
+            <div class="row text-center">
+                 
+                <div id="greeting">Welcome to Siimple</div>
+                <div class="subtitle">Please, fill out the for below to be notifed  for the latest updates!</div>
+                <form action="#">
+                    <input id="name1" class="rounded-pill widthOfPill border-0 p-lg-2" type="text" name="name" placeholder="Your name">
+                    <input id="email1" class="rounded-pill widthOfPill border-0 p-lg-2" type="text" name="email" placeholder="Your email"> <br>
+                    <button type="button" class="btn btn-danger rounded-pill border-0 p-2 w-25 " id="notify">Notify me</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+            
+    <div class="container pb-5 mt-5"><a name="about us"></a>
+        <div class="row justify-content-center">
+                <img src="./about-img.jpg" alt="" class="about col-7">
+                <div class="col-5">
+                  <div id="textHeading">
+                    Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                  </div>
+                  <section class="smallerText">
+                    <div class="italics">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <ul>
+                      <li class="pb-2"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"viewBox="0 0 24 24"><path fill="#fd670d" fill-rule="evenodd" d="M16.5303 6.46967C16.8232 6.76256 16.8232 7.23744 16.5303 7.53033L6.53033 17.5303C6.38968 17.671 6.19891 17.75 6 17.75 5.80109 17.75 5.61032 17.671 5.46967 17.5303L1.46967 13.5303C1.17678 13.2374 1.17678 12.7626 1.46967 12.4697 1.76256 12.1768 2.23744 12.1768 2.53033 12.4697L6 15.9393 15.4697 6.46967C15.7626 6.17678 16.2374 6.17678 16.5303 6.46967zM22.5303 6.46966C22.8232 6.76254 22.8232 7.23742 22.5303 7.53032L12.5308 17.5303C12.2379 17.8232 11.7631 17.8232 11.4702 17.5304L9.96975 16.0304C9.67681 15.7376 9.67674 15.2627 9.96959 14.9697 10.2624 14.6768 10.7373 14.6767 11.0303 14.9696L12.0004 15.9394 21.4697 6.46968C21.7625 6.17678 22.2374 6.17677 22.5303 6.46966z" clip-rule="evenodd"/></svg>
+                      <span class="space">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                      <li class="pb-2"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24"><path fill="#fd670d" fill-rule="evenodd" d="M16.5303 6.46967C16.8232 6.76256 16.8232 7.23744 16.5303 7.53033L6.53033 17.5303C6.38968 17.671 6.19891 17.75 6 17.75 5.80109 17.75 5.61032 17.671 5.46967 17.5303L1.46967 13.5303C1.17678 13.2374 1.17678 12.7626 1.46967 12.4697 1.76256 12.1768 2.23744 12.1768 2.53033 12.4697L6 15.9393 15.4697 6.46967C15.7626 6.17678 16.2374 6.17678 16.5303 6.46967zM22.5303 6.46966C22.8232 6.76254 22.8232 7.23742 22.5303 7.53032L12.5308 17.5303C12.2379 17.8232 11.7631 17.8232 11.4702 17.5304L9.96975 16.0304C9.67681 15.7376 9.67674 15.2627 9.96959 14.9697 10.2624 14.6768 10.7373 14.6767 11.0303 14.9696L12.0004 15.9394 21.4697 6.46968C21.7625 6.17678 22.2374 6.17677 22.5303 6.46966z" clip-rule="evenodd"/></svg>
+                      <span class="space">Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24"><path fill="#fd670d" fill-rule="evenodd" d="M16.5303 6.46967C16.8232 6.76256 16.8232 7.23744 16.5303 7.53033L6.53033 17.5303C6.38968 17.671 6.19891 17.75 6 17.75 5.80109 17.75 5.61032 17.671 5.46967 17.5303L1.46967 13.5303C1.17678 13.2374 1.17678 12.7626 1.46967 12.4697 1.76256 12.1768 2.23744 12.1768 2.53033 12.4697L6 15.9393 15.4697 6.46967C15.7626 6.17678 16.2374 6.17678 16.5303 6.46967zM22.5303 6.46966C22.8232 6.76254 22.8232 7.23742 22.5303 7.53032L12.5308 17.5303C12.2379 17.8232 11.7631 17.8232 11.4702 17.5304L9.96975 16.0304C9.67681 15.7376 9.67674 15.2627 9.96959 14.9697 10.2624 14.6768 10.7373 14.6767 11.0303 14.9696L12.0004 15.9394 21.4697 6.46968C21.7625 6.17678 22.2374 6.17677 22.5303 6.46966z" clip-rule="evenodd"/></svg>
+                      <span class="space">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                    </ul>
+                    <div id="lastParagraph">
+                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                  </section>
+                </div>           
+        </div>
+    </div>
+
+   <div class="container-fluid beige-bg">
+    <div class="container cont-p">
+      <div class="row justify-content-center gap-4">
+          <div class="card col-lg-3 flex-md-nowrap col-md-6 col-sm-12 border-0 cardSize"><a name="our mission"></a>
+              <img src="./why-us-1.jpg" class="card-img-top" alt="..." class="position-relative">
+              <img src="./mission.png" alt="" class="rounded-circle border border-3 position-absolute">
+              <div class="card-body">
+                <div  class="card-title mt-4 text-center">Our Mission</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 flex-md-nowrap col-md-6 col-sm-12 border-0 cardSize" ><a name="our plan"></a>
+              <img src="./why-us-2.jpg" class="card-img-top" alt="..." class="position-relative">
+              <img src="./plan.png" alt="" class="rounded-circle border border-3 position-absolute">
+              <div class="card-body">
+                <div class="card-title mt-4 text-center">Our Plan</div>
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium,
+                   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+                   architecto beatae vitae dicta sunt 
+                   explicabo.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 flex-md-nowrap col-sm-12 border-0 cardSize"><a name="our vision"></a>
+              <img src="./why-us-3.jpg" class="card-img-top" alt="..." class="position-relative">
+              <img src="./vision.png" alt="" class="rounded-circle  border border-3 position-absolute">
+              <div class="card-body">
+                <div class="card-title mt-4 text-center">Our Vision</div>
+                <p class="card-text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem 
+                  sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                </p>
+              </div>
+            </div>
+      </div>
+  </div>
+   </div>
+   <div class="container">
+    <div class="row"><a name="faq"></a>
+      <div class="heading1 text-center">Frequently <span class="border-b">Asked</span> Questions</div>
+      <div class="container">
+
+		<div class="list-group">
+			<div class="list-group-item border-start-0 border-end-0 border-top-0 list-header" data-name="accordeon-title">
+				Non consectetur a erat nam at lectus urna duis?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+			</div>
+			<div class="list-group-item border-start-0 border-end-0 list-content hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item border-start-0 border-end-0 list-header" data-name="accordeon-title">
+				Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+			</div>
+			<div class="list-group-item border-start-0 border-end-0 list-content hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item list-header border-start-0 border-end-0" data-name="accordeon-title">
+				Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+			</div>
+			<div class="list-group-item list-content border-start-0 border-end-0 hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item border-start-0 border-end-0 list-header" data-name="accordeon-title">
+				Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+			</div>
+			<div class="list-group-item border-start-0 border-end-0 list-content hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+      <div class="list-group-item border-start-0 border-end-0 list-header" data-name="accordeon-title">
+				Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+			</div>
+			<div class="list-group-item border-start-0 border-end-0 list-content hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+      <div class="list-group-item border-start-0 border-end-0 list-header" data-name="accordeon-title">
+				Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 79.079 59.51 c -0.537 -0.63 -1.483 -0.708 -2.114 -0.171 L 46.5 85.255 V 1.5 C 46.5 0.671 45.829 0 45 0 s -1.5 0.671 -1.5 1.5 v 83.755 L 13.035 59.339 c -0.63 -0.536 -1.577 -0.461 -2.114 0.171 c -0.537 0.631 -0.46 1.577 0.17 2.114 l 32.938 28.019 c 0.016 0.014 0.038 0.019 0.054 0.032 c 0.09 0.07 0.182 0.138 0.288 0.187 c 0.026 0.012 0.053 0.016 0.079 0.026 c 0.032 0.013 0.063 0.022 0.095 0.032 C 44.694 89.968 44.847 90 45 90 c 0 0 0 0 0 0 s 0 0 0 0 c 0.153 0 0.306 -0.032 0.455 -0.08 c 0.032 -0.01 0.063 -0.019 0.094 -0.032 c 0.026 -0.01 0.053 -0.015 0.079 -0.027 c 0.106 -0.049 0.198 -0.117 0.288 -0.187 c 0.017 -0.013 0.038 -0.018 0.054 -0.032 l 32.937 -28.019 C 79.539 61.087 79.616 60.141 79.079 59.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg></span>
+      </div>
+			<div class="list-group-item border-start-0 border-end-0 list-content hidden">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+		</div>
+      </div>
+        
+    </div>
+  </div>
+
+  <div class="container-fluid contacts"><a name="contacts"></a>
+    <div class="container">
+      <div class="heading2 text-center">Co<span class="border-b">ntact</span> Us</div>
+      
+      <div class="row justify-content-center ms-auto">
+        <div class="d-lg-none d-md-none col-sm-12">
+          <form action="">
+            <div>
+              <input id="name" class=" p-2" type="text" name="name" placeholder="Your name">
+            </div>
+            <div>
+              <input id="email" class=" p-2" type="email" name="email" placeholder="Your email">
+            </div>
+            <div>
+              <input id="subject" class=" p-2" type="text" name="subject" placeholder="Subject">
+            </div>
+            <div>
+              <textarea name="comment" placeholder="Message" class="p-2"></textarea>
+            </div>
+          </form>
+          <button class="p-2 my-button border-0" id= "send">Send Message</button>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="d-flex">
+            <span><svg class="ms-3 me-3" width = "30px"  height="30px" fill = "#fd670d"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 45 90 c -1.062 0 -2.043 -0.561 -2.583 -1.475 l -4.471 -7.563 c -9.222 -15.591 -17.933 -30.317 -20.893 -36.258 c -2.086 -4.277 -3.138 -8.852 -3.138 -13.62 C 13.916 13.944 27.86 0 45 0 c 17.141 0 31.085 13.944 31.085 31.084 c 0 4.764 -1.051 9.339 -3.124 13.596 c -0.021 0.042 -0.042 0.083 -0.063 0.124 c -3.007 6.005 -11.672 20.654 -20.843 36.159 l -4.472 7.563 C 47.044 89.439 46.062 90 45 90 z M 45 6 C 31.168 6 19.916 17.253 19.916 31.084 c 0 3.848 0.847 7.539 2.518 10.969 c 2.852 5.721 11.909 21.033 20.667 35.839 L 45 81.104 l 1.89 -3.196 c 8.763 -14.813 17.823 -30.131 20.687 -35.879 c 0.012 -0.022 0.023 -0.045 0.035 -0.067 c 1.642 -3.406 2.474 -7.065 2.474 -10.877 C 70.085 17.253 58.832 6 45 6 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 45 44.597 c -8.076 0 -14.646 -6.57 -14.646 -14.646 S 36.924 15.306 45 15.306 c 8.075 0 14.646 6.57 14.646 14.646 S 53.075 44.597 45 44.597 z M 45 21.306 c -4.767 0 -8.646 3.878 -8.646 8.646 s 3.878 8.646 8.646 8.646 c 4.768 0 8.646 -3.878 8.646 -8.646 S 49.768 21.306 45 21.306 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg>
+            </span>
+            <span class="address"> A108 Adam Street New York, NY 535022</span>
+          </div>
+          <div>
+            <svg class="m-3" width = "25px"  height="25px"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 80.561 11.626 H 9.439 C 4.234 11.626 0 15.86 0 21.065 v 47.87 c 0 5.204 4.234 9.438 9.439 9.438 h 71.122 c 5.205 0 9.439 -4.234 9.439 -9.438 v -47.87 C 90 15.86 85.766 11.626 80.561 11.626 z M 80.561 16.571 c 0.189 0 0.37 0.033 0.553 0.056 L 45 49.759 L 8.886 16.627 c 0.183 -0.023 0.364 -0.056 0.553 -0.056 H 80.561 z M 85.055 68.935 c 0 2.477 -2.016 4.493 -4.494 4.493 H 9.439 c -2.478 0 -4.494 -2.016 -4.494 -4.493 v -47.87 c 0 -0.411 0.073 -0.802 0.177 -1.18 L 32.498 45 l -17.25 15.825 c -1.006 0.922 -1.074 2.487 -0.151 3.493 c 0.488 0.531 1.154 0.801 1.823 0.801 c 0.597 0 1.196 -0.215 1.671 -0.651 l 17.564 -16.113 l 7.173 6.58 c 0.473 0.434 1.072 0.651 1.671 0.651 s 1.199 -0.217 1.672 -0.651 l 7.173 -6.58 l 17.564 16.113 c 0.475 0.436 1.074 0.651 1.671 0.651 c 0.669 0 1.336 -0.269 1.823 -0.801 c 0.923 -1.006 0.856 -2.571 -0.15 -3.493 L 57.502 45 l 27.376 -25.114 c 0.104 0.378 0.177 0.769 0.177 1.18 V 68.935 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg>
+           <span class="address"> info@example.com</span>
+          </div>
+          <div>
+            <svg class="m-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="25px" height="25px" viewBox="0 0 256 256" xml:space="preserve"><defs></defs><g style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" ><path d="M 62.43 89.983 c -8.742 0 -17.485 -3.327 -24.142 -9.983 L 10 51.712 C 3.551 45.264 0 36.69 0 27.57 S 3.551 9.877 10 3.429 c 2.38 -2.379 5.671 -3.618 9.027 -3.404 c 3.357 0.216 6.461 1.867 8.517 4.531 l 7.737 10.029 c 3.088 4.002 2.721 9.717 -0.854 13.291 c -3.064 3.064 -3.064 8.05 0 11.115 L 51.01 55.572 c 1.484 1.484 3.458 2.302 5.558 2.302 c 2.099 0 4.073 -0.817 5.558 -2.302 c 3.573 -3.574 9.289 -3.942 13.29 -0.854 l 10.029 7.737 c 2.664 2.056 4.315 5.16 4.531 8.518 S 88.95 77.621 86.571 80 C 79.916 86.656 71.173 89.983 62.43 89.983 z M 18.26 6 c -1.517 0 -2.932 0.586 -4.018 1.672 C 3.27 18.644 3.27 36.497 14.242 47.47 L 42.53 75.758 c 10.973 10.971 28.826 10.97 39.799 0 c 1.176 -1.177 1.766 -2.739 1.659 -4.399 c -0.106 -1.661 -0.892 -3.136 -2.209 -4.152 l -10.028 -7.737 c -1.622 -1.248 -3.936 -1.103 -5.384 0.346 c -2.617 2.618 -6.099 4.06 -9.8 4.06 c -3.702 0 -7.183 -1.441 -9.8 -4.06 L 30.186 43.233 c -5.404 -5.404 -5.404 -14.197 0 -19.6 c 1.448 -1.448 1.596 -3.763 0.345 -5.384 L 22.793 8.22 c -1.017 -1.317 -2.491 -2.102 -4.151 -2.208 C 18.515 6.004 18.387 6 18.26 6 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 87 48 c -1.657 0 -3 -1.343 -3 -3 C 84 23.495 66.505 6 45 6 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 c 24.813 0 45 20.187 45 45 C 90 46.657 88.657 48 87 48 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 72.58 48 c -1.657 0 -3 -1.343 -3 -3 c 0 -13.554 -11.026 -24.581 -24.58 -24.581 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 c 16.862 0 30.58 13.718 30.58 30.581 C 75.58 46.657 74.237 48 72.58 48 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #fd670d; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg>
+            <span class="address">+1 5589 55488 55s</span>
+          </div>
+          <div class="col-8 d-flex ms-3">
+            <div>
+              <a href="https://twitter.com/?lang=ru"><svg class="social-icon" fill="#2e1708" class="icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="37px" height="37px"><path d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524 c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489 c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847 c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07 c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786 c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539 c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064 c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"/></svg></a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/Meta/"><svg class="social-icon" fill="#2e1708" class="icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="40px" height="38px"><path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"/></svg></a>
+            </div>
+              <a href="https://www.instagram.com/"><svg class="social-icon" fill="#2e1708" width="35px" height="37px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"/></svg></a>
+            <div>
+              <a href="https://www.linkedin.com/"><svg class="social-icon" fill="#2e1708" width="38px" height="37px" class="icon"  viewBox="0 0 50 50">   <path d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z"/></svg></a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 d-lg-block d-md-block d-sm-none">
+          <form action="">
+            <div>
+              <input id="name" class=" p-2" type="text" name="name" placeholder="Your name">
+            </div>
+            <div>
+              <input id="email" class=" p-2" type="email" name="email" placeholder="Your email">
+            </div>
+            <div>
+              <input id="subject" class=" p-2" type="text" name="subject" placeholder="Subject">
+            </div>
+            <div>
+              <textarea name="comment" placeholder="Message" class="p-2"></textarea>
+            </div>
+          </form>
+          <button class="p-2 my-button border-0" id= "send">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid e-footer">
+  <div class="row">
+    <div class="text-center footer-sm-text"><span>&copy;</span>Copywrite <span class="fw-semibold">Siimple</span>. All Rights Reserved </div>
+    <div class="text-center footer-sml-text">Designed by <span class="footer-sp-text">Bootstrap Made</span></div>
+  </div>
+</div>
+  <script src="js/app.js"></script>
+</body>
+</html>
